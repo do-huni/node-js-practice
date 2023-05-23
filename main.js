@@ -77,7 +77,13 @@ var app = http.createServer(function(request, response) {
 			});
 		});
 	} else if(pathname === 'update'){
-		
+		fs.readdir('./data', function(error, filelist){
+			fs.readFile(`data/${queryData.id}`, 'utf8', function(err, description){
+				var title = queryData.id;
+				var list = templateList(filelist);
+				var template = templateHTML
+			})
+		})
 	} else{ //루트가 아닐 때
 		response.writeHead(404);
 		var template = `
