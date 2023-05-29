@@ -1,0 +1,25 @@
+{
+  "name": "js-practice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://김도훈: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@github.com/do-huni/node-js-practice.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/do-huni/node-js-practice/issues"
+  },
+  "homepage": "https://github.com/do-huni/node-js-practice#readme",
+  "dependencies": {
+    "sanitize-html": "^2.10.0"
+  }
+}
